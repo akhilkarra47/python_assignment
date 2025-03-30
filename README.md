@@ -7,16 +7,17 @@ it helps to evaluate the SVM model and Naives bayes model to calculate the actua
 
 
 ## Getting Started
-you need all the required libraries such as
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.svm import SVC
-from sklearn.naive_bayes import GaussianNB
-from sklearn.metrics import classification_report, confusion_matrix
+you need to install jyupiter notebook and install all the libraries as given below.
+you need all the required libraries such as,
+import pandas as pd,
+import numpy as np,
+import matplotlib.pyplot as plt,
+import seaborn as sns,
+from sklearn.model_selection import train_test_split,
+from sklearn.preprocessing import StandardScaler,
+from sklearn.svm import SVC,
+from sklearn.naive_bayes import GaussianNB,
+from sklearn.metrics import classification_report, confusion_matrix.
 
 ## dataset
 Load the dataset where you saved your file
@@ -64,6 +65,28 @@ plt.title("Naïve Bayes Confusion Matrix")
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.show()
+
+
+## Deployment
+
+by using all the above instructions and code give above you can run SVM and bayes model successfully.
+
+## Author
+
+Akhil Karra
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgments
+
+https://www.baeldung.com/cs/naive-bayes-vs-svm
+https://www.geeksforgeeks.org/naive-bayes-vs-svm-for-text-classification/
+https://www.analyticsvidhya.com/blog/2020/11/understanding-naive-bayes-svm-and-its-implementation-on-spam-sms/
+
+take help of these sites to understand how they can be performed accurately
+
 
 
 
